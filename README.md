@@ -34,10 +34,10 @@ First of all locate to app directory using: `cd todoapp`
 * `python3 -m venv env` set the virtual environment for Pyhton 
 * `source env/bin/activate` activate the venv
 
-## 2. Intall dependencies
+### 2. Intall dependencies
 * `python -m pip install -r requirements.txt` to install dependencies. For Mac users, if you face difficulty in installing the `psycopg2`, you may consider intalling the `sudo brew install libpq` before running the `requirement.txt`. 
 
-## 3. Setting up for database
+### 3. Setting up for database
 * `flask db init` to create the migrations directory structure
 * `dropdb todoapp` if you already have it
 * `createdb todoapp`
@@ -45,7 +45,7 @@ First of all locate to app directory using: `cd todoapp`
 * Using `flask db uprade` when you want to commit your changes to database
 * Using `flask db migrate` when you want to rollback the changes.
 
-## 4. Running
+### 4. Running
 * `export FLASK_APP=app.py`
 * `export FLASK_DEBUG=true`
 * Then `flask run` to run the app (http://127.0.0.1:5000/ or http://localhost:5000)
