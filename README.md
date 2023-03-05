@@ -26,11 +26,27 @@ The database relations `todos(id, description, complete, list_id)` and `todolist
 
 You can insert a few rows in both the tables. Insert first in the `todolists` relation. 
 
-## C. Steps to Run the App: 
+## C. Steps to Run the App:
+
+First of all locate to app directory using: `cd todoapp`
+
+### 1. Setting up the virtual environment for Pyhton
 * `python3 -m venv env` set the virtual environment for Pyhton 
 * `source env/bin/activate` activate the venv
+
+## 2. Intall dependencies
 * `python -m pip install -r requirements.txt` to install dependencies. For Mac users, if you face difficulty in installing the `psycopg2`, you may consider intalling the `sudo brew install libpq` before running the `requirement.txt`. 
+
+## 3. Setting up for database
+* `flask db init` to create the migrations directory structure
+* `dropdb todoapp` if you already have it
+* `createdb todoapp`
+* `flask db migrate` (Detects the model changes to be made and creates a migration file with upgrade and downgrade logic setup.
+* Using `flask db uprade` when you want to commit your changes to database
+* Using `flask db migrate` when you want to rollback the changes.
+
+## 4. Running
 * `export FLASK_APP=app.py`
 * `export FLASK_DEBUG=true`
-* Then `flask run` or `python3 app.py` to run the app (http://127.0.0.1:5000/ or http://localhost:5000)
+* Then `flask run` to run the app (http://127.0.0.1:5000/ or http://localhost:5000)
 * `deactivate` de-activate the virtual environment
