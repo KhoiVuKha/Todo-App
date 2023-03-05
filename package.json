@@ -1,0 +1,23 @@
+{
+  "name": "Todo-App",
+  "version": "1.0.0",
+  "description": "This app is written in Python with Flask and SQLAlchemy, as a part of the Udacity's Full Stack Web Developer Nanodegree program.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhoiVuKha/Todo-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhoiVuKha/Todo-App/issues"
+  },
+  "homepage": "https://github.com/KhoiVuKha/Todo-App#readme",
+  "dependencies": {
+    "bootstrap": "^3.4.1"
+  }
+}
