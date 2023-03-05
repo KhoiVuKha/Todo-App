@@ -13,7 +13,6 @@ In order to run this app, the following dependencies must have been already inst
 2. Flask
 
 ## B. Database
-![image](https://user-images.githubusercontent.com/15206083/222969023-04f50437-58da-40c8-8e06-236a5615bdbb.png)
 
 The database relations `todos(id, description, complete, list_id)` and `todolists(id, name)` must have been already created in Postgres. We have assumed that the Postgres is running on default port 5432.
 
@@ -23,6 +22,8 @@ The database relations `todos(id, description, complete, list_id)` and `todolist
 * Displays the tables in the database `\dt` 
 * Displays the schema of the 'todos' table `\d todos` 
 * Displays the schema of the 'todolists' table `\d todolists` 
+
+![image](https://user-images.githubusercontent.com/15206083/222969023-04f50437-58da-40c8-8e06-236a5615bdbb.png)
 
 You can insert a few rows in both the tables. Insert first in the `todolists` relation. 
 
