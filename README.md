@@ -1,6 +1,9 @@
 # SAMPLE VERSION OF TODO APP
 This app is written in Python with Flask and SQLAlchemy, as a part of the Udacity's Full Stack Web Developer Nanodegree program.
 
+## Demo
+<img width="351" alt="image" src="https://user-images.githubusercontent.com/15206083/222968879-3838b171-50fd-4631-8e38-bbf9ff70f82a.png">
+
 ## A. Dependency
 In order to run this app, the following dependencies must have been already installed:
 1. Postgres. 
