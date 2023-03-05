@@ -12,7 +12,9 @@ In order to run this app, the following dependencies must have been already inst
  
 2. Flask
 
-## B. Database 
+## B. Database
+![image](https://user-images.githubusercontent.com/15206083/222969023-04f50437-58da-40c8-8e06-236a5615bdbb.png)
+
 The database relations `todos(id, description, complete, list_id)` and `todolists(id, name)` must have been already created in Postgres. We have assumed that the Postgres is running on default port 5432.
 
 * `dropdb todoapp -p 5432 && createdb todoapp -p 5432` 
